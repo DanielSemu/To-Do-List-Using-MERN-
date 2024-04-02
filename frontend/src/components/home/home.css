@@ -1,0 +1,68 @@
+.card{
+   
+    margin: 1em auto;
+    color: #fff;
+    max-width: 1050px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.card h1{
+    color: black;
+}
+.add-button-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    background-color: rgb(50, 141, 50);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-botton{
+   margin: auto 0;
+    padding: 10px 15px;
+   
+}
+.btn:hover{
+    background-color: rgb(29, 91, 29);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #006bb3;
+  }
+  th{
+    font-size: 17px;
+    font-weight: 900;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  .delete{
+    background-color: red;
+    margin: 0 5px;
+    padding: 7px;
+    font-size: 14px;
+  }
+  .edit{
+    margin: 0;
+    padding: 7px;
+    font-size: 14px;
+  }
+  .table-container {
+    max-height: 73vh; 
+    overflow-y: auto;
+  }
+  input[type="checkbox"]{
+    margin-right: 10px;
+  }
