@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navbar from './components/Navbar'
+import AddTask from './components/add_task/Add_Task';
 import Home from './components/home/Home';
 import Login from './components/login/Login'
 import Signup from './components/signup/Signup'
@@ -12,6 +13,7 @@ function App() {
     <Navbar/>
     <Routes>
         <Route path="/" element={<Home/>}/> 
+        <Route path="/addtask" element={<AddTask/>}/> 
         <Route path="/login" element={<Login/>}/> 
         <Route path="/signup" element={<Signup/>}/> 
 
