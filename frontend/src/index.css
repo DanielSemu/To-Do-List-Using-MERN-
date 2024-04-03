@@ -1,0 +1,9 @@
+html, body {
+  height: 100%;
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+body{
+  background: linear-gradient(180deg, #000d1a, #00264d);
+  background-repeat: no-repeat;
+}
